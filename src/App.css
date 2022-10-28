@@ -1,3 +1,59 @@
+/* Defining root colors for the brand */
 :root{
-  
+    --brand-color: #5e69ff;
+    --font-primary: #FFFFFF;
+    --font-gray: #747474;
+    --font-dark: #1b1b1b;
+
+    /* background colors  */
+    --background-dark: #15191c;
+    --background-gray: #1F2128;
+
+    /* pastels */
+    --pastel-pink: #d255d4;
+    --pastel-indigo: #6d66e9;
+    --pastel-green: #5BB68B;
+    --pastel-red: #DA714F;
+    --pastel-yellow: #E6C142;
+    --color-pop-1: #639EF5;
+    --color-pop-2: #716EF5;
+    --color-pop-3: #F29C36;
+    --color-pop-4: #F57042;
+    /* font family  */
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+.active{
+    color: var(--brand-color);
+}
+.dark-theme{
+    background-color: var(--background-dark);
+    color: var(--font-primary);
+
+}
+/* landing-page */
+.top-nav{
+    width: 100%;
+    height: 12vh;
+    position: relative;
+}
+.login-button{
+    font-family: 'Poppins',sans-serif;
+    color: var(--brand-color);
+    border: 4px solid var(--brand-color);
+    padding: 0.25rem 1rem;
+    font-weight: 600;
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+}
+.brand-heading{
+    color: var(--brand-color);
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
 }
